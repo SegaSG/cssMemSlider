@@ -1,1 +1,1 @@
-# cssMemSlider
+https://SegaSG.github.io/cssMemSlider/cssMemSlider/index.html
