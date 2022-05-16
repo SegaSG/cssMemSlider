@@ -159,7 +159,7 @@ input[name="dot"] {
 
 @media (max-width: 480px){
     .container {
-        width: calc(100vw - 25%); 
+        width: calc(100vw - 50%); 
     }
     .slider-description {
         flex-direction: column-reverse;
