@@ -45,7 +45,7 @@ body {
     background-color: aquamarine;
     border: 0.11rem aquamarine solid;
     border-radius: 50%;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 input[name="dot"] {
@@ -135,7 +135,7 @@ input[name="dot"] {
 .slider-box .slider-box__text {
     width: 800%;
     display: flex;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
 .slider-box__text-slider{
@@ -163,7 +163,9 @@ input[name="dot"] {
     }
     .slider-description {
         flex-direction: column-reverse;
-        justify-content: center;
-        text-align: center;
+    }
+    .slider-box {
+        margin-top: 1.3rem;
+        align-self: flex-start;
     }
 }
