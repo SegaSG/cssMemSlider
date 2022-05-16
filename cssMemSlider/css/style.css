@@ -171,18 +171,3 @@ input[name="dot"] {
         align-self: flex-start;
     }
 }
-
-/* @media (max-width: 0px){
-    .container {
-        width: calc(100vw - 10%);
-        margin-top: calc((50vh - 50%)/2);
-        margin-bottom: calc((50vh - 50%)/2);
-    }
-    .slider-description {
-        flex-direction: column-reverse;
-    }
-    .slider-box {
-        margin-top: 1.3rem;
-        align-self: flex-start;
-    }
-} */
