@@ -142,3 +142,28 @@ input[name="dot"] {
     width: 12.5%;
     color: yellow;
 }
+
+@media (max-width: 1024px){
+    .container {
+        width: calc(100vw - 65%); 
+    }
+}
+@media (max-width: 768px){
+    .container {
+        width: calc(100vw - 45%);
+        height: calc(90vh - 1%);
+        margin-top: calc((50vh - 25%)/2);
+        margin-bottom: calc((50vh - 25%)/2);
+    }
+}
+
+@media (max-width: 480px){
+    .container {
+        width: calc(100vw - 25%); 
+    }
+    .slider-description {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+}
